@@ -16,17 +16,17 @@ see the file [LICENSE](LICENSE) and [BSD 3-clause](https://opensource.org/licens
 
 ## Installation
 
-See [INSTALL](INSTALL) or the [documentation](hier link bauen) for detailed installation instructions.
+See [INSTALL](INSTALL) or the [documentation](https://consenslib.readthedocs.io/en/latest/installation.html) for detailed installation instructions.
 
 ## Documentation
 
-The documentation is available on [ReadTheDocs](https://readthedocs.org/) as a [HTML](<html link>)
-and as a [PDF](<pdf link>) document.
+The documentation is available on [ReadTheDocs](https://readthedocs.org/) as a [HTML](https://consenslib.readthedocs.io/en/latest/)
+and as a [PDF](https://consenslib.readthedocs.io/en/latest/refman.pdf) document.
 
 ## Getting Started
 
 In order to run the CONSENS enumeration algorithm you must first define traits for your graph structure.
-See the [documentation](<link to docs>) for detailed instructions.
+See the [documentation](consenslib.readthedocs.io/en/latest/structConsensLib_1_1GraphTraits.html) for detailed instructions.
 Below is a traits definition taken from the [example file](src/Examples/Example.cpp).
 
 ```cpp
