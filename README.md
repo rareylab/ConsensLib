@@ -3,7 +3,7 @@
 ConsensLib is a header-only C++ library for efficient enumeration of connected induced subgraphs.
 The CONSENS (Connected Subgraph Enumeration Strategy) algorithm enumerates all node sets
 that form a connected subgraph of a given query graph. During enumeration a pair of forbidden
-and candidate nodes is used to avoid duplicates.
+and candidate node sets is used to avoid duplicates.
 
 It has been developed at the
 [University of Hamburg](https://www.uni-hamburg.de/),
@@ -26,8 +26,8 @@ and as a [PDF](https://consenslib.readthedocs.io/en/latest/refman.pdf) document.
 ## Getting Started
 
 In order to run the CONSENS enumeration algorithm you must first define traits for your graph structure.
-See the [documentation](consenslib.readthedocs.io/en/latest/structConsensLib_1_1GraphTraits.html) for detailed instructions.
-Below is a traits definition taken from the [example file](src/Examples/Example.cpp).
+See the [documentation](https://consenslib.readthedocs.io/en/latest/structConsensLib_1_1GraphTraits.html) for detailed instructions.
+Below a traits definition taken from the [example file](src/Examples/Example.cpp) is shown.
 
 ```cpp
 using GraphMap = std::pair<std::vector<unsigned>,
