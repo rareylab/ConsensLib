@@ -1,5 +1,8 @@
 # ConsensLib
 
+[![Build Status](https://travis-ci.org/lbellmann/ConsensLib.svg?branch=master)](https://travis-ci.org/lbellmann/ConsensLib)
+[![Documentation Status](https://readthedocs.org/projects/consenslib/badge/?version=latest)](https://consenslib.readthedocs.io/en/latest/?badge=latest)
+
 ConsensLib is a header-only C++ library for efficient enumeration of connected induced subgraphs.
 The CONSENS (Connected Subgraph Enumeration Strategy) algorithm enumerates all node sets
 that form a connected subgraph of a given query graph. During enumeration a pair of forbidden
