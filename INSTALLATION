@@ -1,0 +1,65 @@
+Installation Procedure for the ConsensLib C++ Library
+
+Please note that this is a header only C++ library.
+You can directly use the header files in the folder `include`.
+However, the tests must be built
+using the instructions given in this document.
+
+This library needs a C++-14 compiler!
+
+This package uses CMake for the build process. See
+the [CMake documentation] (https://cmake.org/documentation/)
+for general configuration options.
+
+The most useful option is `-DCMAKE_INSTALL_PREFIX=<your/target/path>` for changing
+the install directory.
+
+Core library
+============
+
+Prerequisites
+-------------
+
+The build process needs [CMake] (https://cmake.org) (>= 3.1) and a C++-14 compiler
+(for example g++, clang++ or MSVC).
+
+
+Installation Unix and macOS
+---------------------------
+
+Installation on Unix using `make` and the system's default C++ compiler.
+
+    mkdir build
+    cd build
+    cmake .. -DCMAKE_BUILD_TYPE=Release
+    make && make install
+
+Test
+----
+
+Use the following command to test the build
+of the core library. Testing is strongly recommended.
+
+    make test
+
+The program will execute the subgraph enumeration on different graph data structures
+with a range of parameterisations.
+
+
+Installation Windows
+--------------------
+
+Installation on Windows using the `Visual Studio` C++ compiler and
+`MSBuild.exe` from the command line (`cmd.exe`).
+Replace `Visual Studio 15 2017` by your Version.
+
+    mkdir build
+    cd build
+    cmake.exe -G"Visual Studio 15 2017" ..
+    MSBuild.exe ALL_BUILD.vcxproj /property:Configuration=Release
+    MSBuild.exe INSTALL.vcxproj /property:Configuration=Release
+
+Use the following command to test the build
+of the core library.
+
+MSBuild.exe RUN_TESTS.vcxproj /property:Configuration=Release

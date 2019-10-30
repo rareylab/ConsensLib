@@ -1,0 +1,43 @@
+/*!
+
+@mainpage
+
+ConsensLib is a C++ library for the enumeration of connected induced subgraphs.
+The subgraphs are enumerated by recursively growing subgraphs while avoiding
+duplicates utilizing a set of forbidden nodes for each subgraph.
+
+It is developed at the
+University of Hamburg, ZBH - Center for Bioinformatics
+by Louis Bellmann and Matthias Rarey.
+
+The library is distributed under BSD 3-clause license,
+see the file LICENSE and [BSD 3-clause]
+(https://opensource.org/licenses/BSD-3-Clause).
+
+Please cite:
+
+@todo Citation
+
+For installation instructions see here: @subpage installation
+
+A minimal example can be found here: @subpage example
+*/
+
+/*!
+@page installation Installation Instructions
+
+This document describes the installation procedure for
+the ConsensLib library.
+
+\include INSTALLATION
+
+*/
+
+/*!
+@page example Minimal Example
+
+A minimal example for the ConsensLib C++ library is:
+
+\include Example.cpp
+
+*/
