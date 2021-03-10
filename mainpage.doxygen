@@ -16,7 +16,10 @@ see the file LICENSE and [BSD 3-clause]
 
 Please cite:
 
-@todo Citation
+Bellmann, L.; Penner, P.; Rarey M.
+Connected Subgraph Fingerprints: Representing Molecules
+Using Exhaustive Subgraph Enumeration
+J. Chem. Inf. Model., 2019, 59, pp 4625-4635
 
 For installation instructions see here: @subpage installation
 
