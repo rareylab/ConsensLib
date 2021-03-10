@@ -1,6 +1,6 @@
 # ConsensLib
 
-[![Build Status](https://travis-ci.org/lbellmann/ConsensLib.svg?branch=master)](https://travis-ci.org/lbellmann/ConsensLib)
+[![Build Status](https://travis-ci.org/rareylab/ConsensLib.svg?branch=master)](https://travis-ci.org/rareylab/ConsensLib)
 [![Documentation Status](https://readthedocs.org/projects/consenslib/badge/?version=latest)](https://consenslib.readthedocs.io/en/latest/?badge=latest)
 
 ConsensLib is a header-only C++ library for efficient enumeration of connected induced subgraphs.
